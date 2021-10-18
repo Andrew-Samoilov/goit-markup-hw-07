@@ -1,7 +1,13 @@
 @import "./base/reset";
-@import "./utils/vars";
-@import "./components/container";
-@import "./components/btn";
-@import "./layout/hero";
+@import "./utils/variables";
 @import "./layout/body";
+@import "./components/button";
+@import "./components/section";
+@import "./components/container";
+@import "./layout/filter";
 @import "./layout/header";
+@import "./components/logo";
+@import "./layout/navigation";
+@import "./layout/footer";
+@import "./base/base";
+@import "./layout/modal";
