@@ -1,0 +1,22 @@
+/* линия в хеадере */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+.page-header .container {
+  display: flex;
+}
+.header-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.logo-header {
+  color: var(--primary-text-color);
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-item a {
+  align-items: center;
+  display: flex;
+}
