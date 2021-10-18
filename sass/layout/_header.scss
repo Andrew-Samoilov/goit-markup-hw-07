@@ -20,3 +20,24 @@
   align-items: center;
   display: flex;
 }
+
+.page-header,
+.site-contact,
+.site-nav,
+.site-nav > .list {
+  display: flex;
+  align-items: center;
+}
+.site-contact {
+  margin-left: auto;
+}
+/* навигация */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-right: 93px;
+}

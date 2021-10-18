@@ -1,87 +1,10 @@
 /* сброс стилей */
 
-html {
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-p {
-  margin-top: 0;
-}
-p:last-child {
-  margin-bottom: 0;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-address {
-  font-style: normal;
-}
-a {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
 /*  */
-
-body {
-  background-color: var(--white-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-color);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  width: 100%;
-}
 
 /* filter item  */
 .filter-item:not(:last-child) {
   margin-right: 8px;
-}
-
-/* навигация */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-right: 93px;
 }
 
 .logo-footer {
@@ -144,27 +67,7 @@ body {
 }
 
 /* секция */
-.section-title {
-  color: var(--primary-text-color);
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  margin-bottom: 50px;
-}
-.section-subtitle {
-  font-weight: bold;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--primary-text-color);
-  margin-bottom: 10px;
-}
 
-.section-text {
-  color: var(--secondary-color);
-  font-style: normal;
-  font-weight: normal;
-}
 /* секція команда */
 .team {
   background-color: #f5f4fa;
@@ -237,45 +140,7 @@ body {
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
-/* герой */
-.hero {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: var(--background-color);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero-img.jpg");
-  color: var(--white-color);
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-}
-.hero button {
-  background-color: var(--accent);
-  color: var(--white-color);
-  padding: 10px 32px;
-  font-weight: 700;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-}
+
 /* в каждой секции елементам списка нужно давать 
 display: flex; сделаю 1н клас на всех */
 .flex-list {
@@ -455,16 +320,6 @@ li.item {
 
 /* добавляем flex  */
 
-.page-header,
-.site-contact,
-.site-nav,
-.site-nav > .list {
-  display: flex;
-  align-items: center;
-}
-.site-contact {
-  margin-left: auto;
-}
 /* клиенты секция */
 /* .clients .item {
   flex-basis: calc(100% / 6 - 30px);

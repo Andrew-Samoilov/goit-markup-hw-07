@@ -1,5 +1,7 @@
-@import "./components/header";
-@import "./base/_reset";
-@import "./utils/_vars";
+@import "./base/reset";
+@import "./utils/vars";
 @import "./components/container";
 @import "./components/btn";
+@import "./layout/hero";
+@import "./layout/body";
+@import "./layout/header";
