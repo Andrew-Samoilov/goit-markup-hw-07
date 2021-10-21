@@ -18,3 +18,14 @@
   fill: currentColor;
   margin-right: 10px;
 }
+
+.page-header,
+.site-contact,
+.site-nav,
+.site-nav > .list {
+  display: flex;
+  align-items: center;
+}
+.site-contact {
+  margin-left: auto;
+}
