@@ -1,6 +1,16 @@
 @import "./base/reset";
 @import "./utils/variables";
-@import "./layout/body";
+@import "./base/body";
+@import "./base/icon";
+
+@import "./layout/team";
+@import "./layout/hero";
+@import "./layout/work";
+@import "./layout/features";
+@import "./layout/portfolio";
+// @import "./components/sosial"; так не працює хувер в футері
+@import "./layout/clients";
+
 @import "./components/button";
 @import "./components/section";
 @import "./components/container";
@@ -11,3 +21,5 @@
 @import "./layout/footer";
 @import "./base/base";
 @import "./layout/modal";
+
+@import "./components/sosial";

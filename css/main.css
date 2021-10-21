@@ -76,6 +76,16 @@ body {
   color: var(--secondary-color);
 }
 
+.icon-bgr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -98,6 +108,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-item {
+  flex-basis: calc(100% / 4 - 30px);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
+  padding-bottom: 30px;
 }
 
 .hero {
@@ -163,14 +181,6 @@ body {
   background-color: var(--white-color);
 }
 
-.team-item {
-  flex-basis: calc(100% / 4 - 30px);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background-color: var(--white-color);
-  padding-bottom: 30px;
-}
-
 .features.section {
   padding-bottom: 0;
 }
@@ -178,16 +188,6 @@ body {
 .futures-icon {
   width: 70px;
   height: 70px;
-}
-
-.icon-bgr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-  border-radius: 4px;
 }
 
 .portfolio-link {
@@ -288,42 +288,6 @@ body {
   width: 106px;
   height: 60px;
   fill: currentColor;
-}
-
-.sosial-list {
-  display: flex;
-  justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.sosial-bgr {
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
-  background-color: var(--white-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondary-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sosial-icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
-.sosial-bgr:focus,
-.sosial-bgr:active,
-.sosial-bgr:hover {
-  background-color: var(--accent);
-  color: var(--white-color);
-}
-
-.sosial-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 button {
@@ -792,5 +756,41 @@ form .form-btn svg {
 .modal-checkbox a {
   color: var(--accent);
   text-decoration: underline;
+}
+
+.sosial-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.sosial-bgr {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sosial-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.sosial-bgr:focus,
+.sosial-bgr:active,
+.sosial-bgr:hover {
+  background-color: var(--accent);
+  color: var(--white-color);
+}
+
+.sosial-item:not(:last-child) {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
