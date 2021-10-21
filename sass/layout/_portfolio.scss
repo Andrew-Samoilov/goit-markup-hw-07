@@ -3,6 +3,7 @@
   
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .portfolio-link:hover,
   .portfolio-link:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -15,6 +16,7 @@
     display: flex;
     flex-wrap: wrap;
   }
+
   .portfolio .item {
     flex-basis: calc(100% / 3 - 30px);
     border: 1px solid #eeeeee;
@@ -29,6 +31,7 @@
     position: relative;
     overflow: hidden;
   }
+
   .portfolio-overley-text {
     position: absolute;
     top: 0;
@@ -55,6 +58,7 @@
     color: var(--primary-text-color);
     margin-bottom: 4px;
   }
+
   .portfolio-type {
     font-style: normal;
     font-weight: normal;
@@ -63,6 +67,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-color);
   }
+  
   .portfolio-text-margin {
     padding: 20px 24px;
   }
