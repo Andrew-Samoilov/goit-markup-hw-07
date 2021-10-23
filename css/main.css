@@ -504,19 +504,6 @@ button {
   margin-left: 93px;
 }
 
-.footer-sosial .sosial-list {
-  padding: 0;
-  color: var(--white-color);
-}
-
-.footer-sosial .sosial-bgr {
-  background-color: var(--secondary-color);
-}
-
-.footer-sosial .sosial-icon {
-  fill: var(--white-color);
-}
-
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -541,6 +528,25 @@ button {
 .footer-input:hover,
 .footer-input:focus {
   border: 1px solid var(--accent);
+}
+
+.footer-sosial .sosial-list {
+  padding: 0;
+  color: var(--white-color);
+}
+
+.footer-sosial .sosial-list__bgr {
+  background-color: var(--secondary-color);
+}
+
+.footer-sosial .sosial-list__icon {
+  fill: var(--white-color);
+}
+
+.footer-sosial.sosial-list__bgr:focus,
+.footer-sosial.sosial-list__bgr:active,
+.footer-sosial.sosial-list__bgr:hover {
+  background-color: var(--secondary-color);
 }
 
 .flex-list {
