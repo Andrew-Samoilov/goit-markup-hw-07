@@ -23,7 +23,8 @@
         "../sass/layout/_footer.scss",
         "../sass/base/_base.scss",
         "../sass/layout/_modal.scss",
-        "../sass/components/_sosial.scss"
+        "../sass/components/_sosial.scss",
+        "../sass/utils/_breakpoins.scss"
     ],
     "names": [],
     "file": "main.css"
