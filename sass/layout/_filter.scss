@@ -1,5 +1,6 @@
-.button {
-  background-color: var(--white-color);
+.filter-button {
+  // background-color: #f5f4fa;
+  background-color: teal;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -19,9 +20,9 @@
   display: flex;
 }
 
-.filter .button:focus,
-.filter .button:active,
-.filter .button:hover,
+.filter-button:focus,
+.filter-button:active,
+.filter-button:hover,
 .button-active {
   color: var(--white-color);
   background-color: var(--accent);
