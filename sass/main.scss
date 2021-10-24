@@ -1,7 +1,16 @@
-@import "./base/reset";
 @import "./utils/variables";
+@import "./utils/breakpoins";
+
+@import "./base/reset";
 @import "./base/body";
+@import "./base/base";
+
+@import "./components/button";
+@import "./components/section";
+@import "./components/container";
 @import "./components/icon";
+@import "./components/logo";
+@import "./components/sosial";
 
 @import "./layout/team";
 @import "./layout/hero";
@@ -9,18 +18,8 @@
 @import "./layout/features";
 @import "./layout/portfolio";
 @import "./layout/clients";
-
-@import "./components/button";
-@import "./components/section";
-@import "./components/container";
 @import "./layout/filter";
 @import "./layout/header";
-@import "./components/logo";
 @import "./layout/navigation";
 @import "./layout/footer";
-@import "./base/base";
 @import "./layout/modal";
-
-@import "./components/sosial";
-
-@import "./utils/breakpoins";
